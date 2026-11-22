@@ -1,6 +1,6 @@
 # 风到海大｜校园通知判读实验室
 
-室友转来一条“恢复开馆”的通知，明天就能进书库吗？
+室友问：“明天去书库吗？”你手上的通知，够答复吗？
 
 **[直接试玩 ↗](https://campus-notice-lab-qy6hac0dpwr.qoder.zone/)** · [写一条试玩反馈](https://github.com/yuanwenhao468-jpg/fengdao-haida-playtest/issues/new?template=playtest.yml)
 
