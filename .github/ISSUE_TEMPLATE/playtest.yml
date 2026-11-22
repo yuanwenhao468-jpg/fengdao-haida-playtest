@@ -1,0 +1,26 @@
+name: 试玩反馈
+description: 选一关，告诉我们第一次怎么判断或卡在哪里。
+title: "[试玩] "
+body:
+  - type: markdown
+    attributes:
+      value: 感谢试玩！留言会公开，标题请不要剧透，也不需要提供姓名、学号或联系方式。
+  - type: dropdown
+    id: chapter
+    attributes:
+      label: 你试了哪一部分？
+      options: ["海口 · 海南大学", "香港 · 香港中文大学", "北京 · 北京大学", "首页或其他"]
+    validations:
+      required: true
+  - type: textarea
+    id: experience
+    attributes:
+      label: 你第一次怎么判断，或者在哪一步遇到了问题？
+      description: 用自己的话说就好。如果你反馈的是显示问题，可以描述点了哪里、期望看到什么、实际看到什么。
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备和浏览器（选填）
+      placeholder: 例如：安卓手机，微信内置浏览器
